@@ -1,1 +1,1 @@
-P1 :  Simplified Black Jack Agent
+P1 :  Exercise for Eclipse Beginners

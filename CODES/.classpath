@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="A1/p1x1"/>
+	<classpathentry kind="src" path="A1/v1x1"/>
+	<classpathentry kind="src" path="A1/z1x1"/>
+	<classpathentry kind="src" path="A1/z1x2"/>
+	<classpathentry kind="src" path="A1/z1x3"/>
+	<classpathentry kind="src" path="A1/z1x4"/>
+	<classpathentry kind="src" path="A1/z1x5"/>
+	<classpathentry kind="src" path="A1/z1x6"/>
+	<classpathentry kind="src" path="A1/z1x7"/>
+	<classpathentry kind="src" path="A1/z1x8"/>
+	<classpathentry kind="src" path="A2/a2x1/src"/>
+	<classpathentry kind="src" path="A2/a2x2/src"/>
+	<classpathentry kind="src" path="A2/a2x3/src"/>
+	<classpathentry kind="src" path="A2/v2x1"/>
+	<classpathentry kind="src" path="A2/v2x2"/>
+	<classpathentry kind="src" path="A2/v2x3"/>
+	<classpathentry kind="src" path="A2/z2x1"/>
+	<classpathentry kind="src" path="A2/z2x2"/>
+	<classpathentry kind="src" path="A2/z2x3"/>
+	<classpathentry kind="src" path="A2/z2x4"/>
+	<classpathentry kind="src" path="A2/z2x5"/>
+	<classpathentry kind="src" path="A2/z2x6"/>
+	<classpathentry kind="src" path="A2/z2x7"/>
+	<classpathentry kind="output" path="A2/a2x1/bin"/>
+</classpath>
