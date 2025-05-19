@@ -39,36 +39,26 @@ public class FibonacciNumberPrinter {
      *                                        starting with first Fibonacci number
      */
     public void printFirstFibonacciNumbers( final int wantedNumberOfFibonacciNumbers ){
-        //vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-        //###
-        //###
-        //###
-        //###           HIER kommt Ihr Code hin
-        //###
-        //###                    VVVV
-        //###                    VVVV
-        //###                    VVVV
-        //###   VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
-        //###      VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
-        //###         VVVVVVVVVVVVVVVVVVVVVVVVVV
-        //###            VVVVVVVVVVVVVVVVVVVV
-        //###               VVVVVVVVVVVVVV
-        //###                  VVVVVVVV
-        //###                     VV
+        int n = 0;
+        int n2 = 1;
+        int n3 = 0;
+        for (int i = 0; i < wantedNumberOfFibonacciNumbers; i++) {
+            
+
+            if (i == wantedNumberOfFibonacciNumbers -1 )
+                System.out.print(n3);
+            else if(i == 0)
+                System.out.print(n + ", "+ n2 +", ");
+            else
+                {System.out.print(n3 + ", ");}
+                
+            n3 = n + n2;
+            n = n2;
+            n2 = n3;
+          }
+
         
-        
-        
-        // Fügen Sie hier Ihren Code ein
-        // bzw. ersetzen Sie diesen Kommentar durch Ihren Code.
-        // Zerlegen Sie "number" in seine Primfaktoren.
-        // ...
-        
-        
-        
-        //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-        // Sofern Sie kein Vorwissen haben und/oder NICHT wissen was Sie tun
-        // führen Sie KEINE! Änderungen unterhalb dieser Zeilen durch.
-        //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
         //
     }//method()
     

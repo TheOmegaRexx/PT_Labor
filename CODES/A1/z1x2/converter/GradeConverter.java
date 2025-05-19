@@ -50,18 +50,69 @@ public class GradeConverter {
         //###                  VVVVVVVV
         //###                     VV
         
-        
-        
-        // Fügen Sie hier Ihren Code ein
-        // bzw. ersetzen Sie diesen Kommentar durch Ihren Code.
-        // ...
-        
-        
-        // "Code-Vorgabe"
-        
-        
         // Deklaration und Initialisierung
         String result = "";
+        switch(np) {
+        case 15:
+            result = "1+";
+            break;
+        case 14:
+            result = "1";
+            break;
+        case 13:
+            result = "1-";
+            break;
+        case 12:
+            result = "2+";
+            break;
+        case 11:
+            result = "2";
+            break;
+        case 10:
+            result = "2-";
+            break;
+        case 9:
+            result = "3+";
+            break;
+        case 8:
+            result = "3";
+            break;
+        case 7:
+            result = "3-";
+            break;
+        case 6:
+            result = "+4";
+            break;
+        case 5:
+            result = "4";
+            break;
+        case 4:
+            result = "-4";
+            break;
+        case 3:
+            result = "5+";
+            break;
+        case 2:
+            result = "5";
+            break;
+        case 1:
+            result = "5-";
+            break;
+        case 0:
+            result = "6";
+            break;
+        default:
+            result = "Etwas ist schief gelaufen!";
+            
+
+           
+        }
+        
+        
+        
+        
+        
+
         
         
         //...
