@@ -31,13 +31,7 @@ public class CardProcessor {
         return matrix;
     }
     
-    /**
-     * Sortiert das übergebene Kartenarray direkt (in-place) mit:
-     * - Primärer Sortierung: absteigend nach Rang (ACE zuerst, TWO zuletzt)
-     * - Sekundärer Sortierung: nach Farbe (CLUB, SPADES, HEART, DIAMOND)
-     * 
-     * @param cardsToBeSorted Array mit Karten, das sortiert werden soll (wird verändert)
-     */
+
     public void sortCards(final Card[] cardsToBeSorted) {
         // Erzeuge die Kartenmatrix
         Card[][] matrix = generateCardMatrix(cardsToBeSorted);
