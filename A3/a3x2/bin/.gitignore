@@ -132,3 +132,9 @@ synchronizeWithOriginMasterBranch.bash
 #
 # ...
 #
+/.gitignore
+/ReadMe.txt
+/cardProcessor/
+/cards/
+/readme.md
+/stuffBeginnersDontHaveToUnderstand/

@@ -132,3 +132,8 @@ synchronizeWithOriginMasterBranch.bash
 #
 # ...
 #
+/.gitignore
+/ReadMe.txt
+/readme.md
+/simpleCharacterArrayBasedPalindromeTester/
+/stuffBeginnersDontHaveToUnderstand/

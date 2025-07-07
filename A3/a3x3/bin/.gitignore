@@ -132,3 +132,8 @@ synchronizeWithOriginMasterBranch.bash
 #
 # ...
 #
+/.gitignore
+/ReadMe.txt
+/patternBasedArrayProcessor/
+/readme.md
+/stuffBeginnersDontHaveToUnderstand/
